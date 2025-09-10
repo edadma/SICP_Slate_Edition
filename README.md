@@ -79,17 +79,8 @@ pdflatex SICP-Slate-Book.tex  # Run twice for complete table of contents
 │   └── section-1-3.tex           # Higher-Order Procedures
 ├── preview-section.sh             # Individual section compilation
 ├── LICENSE                       # CC BY-SA 4.0 license
-├── CLAUDE.md                     # Development guidelines
 └── README.md                     # This file
 ```
-
-## Contributing
-
-We welcome contributions! Please see [CLAUDE.md](CLAUDE.md) for detailed development guidelines including:
-- LaTeX style conventions
-- Slate syntax guidelines  
-- Anonymous function usage (`->` vs `def`)
-- Code highlighting styles (`[style=slate]` vs `[style=plain]`)
 
 ### Translation Principles
 1. **Preserve core concepts**: Abstraction, recursion, higher-order functions
